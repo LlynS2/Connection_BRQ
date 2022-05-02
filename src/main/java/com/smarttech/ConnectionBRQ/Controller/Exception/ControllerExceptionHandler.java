@@ -18,7 +18,7 @@ public class ControllerExceptionHandler extends ResponseEntityExceptionHandler{
 	public ResponseEntity<ApiError> handleNotFoundException(NotFoundException ex) {
 		
 		ApiError error = new ApiError( HttpStatus.NOT_FOUND.value(), 
-					                   ex.getMessage(), new Date() );
+					       ex.getMessage(), new Date() );
 		
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
 	}
@@ -38,8 +38,8 @@ public class ControllerExceptionHandler extends ResponseEntityExceptionHandler{
 	@Override
 	protected ResponseEntity<Object> 
 			  handleMethodArgumentNotValid( MethodArgumentNotValidException ex,
-						                    HttpHeaders headers, HttpStatus status, 
-						                    WebRequest request ) {
+						        HttpHeaders headers, HttpStatus status, 
+						        WebRequest request ) {
 		
 		List<String> errors = new ArrayList<String>();
 		
@@ -50,7 +50,7 @@ public class ControllerExceptionHandler extends ResponseEntityExceptionHandler{
 		String defaultMessage = "Invalid field(s)";
 		
 		ApiErrorList error = new ApiErrorList( HttpStatus.BAD_REQUEST.value(), 
-						                       defaultMessage, new Date(), errors );
+						       defaultMessage, new Date(), errors );
 		
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
 	}
