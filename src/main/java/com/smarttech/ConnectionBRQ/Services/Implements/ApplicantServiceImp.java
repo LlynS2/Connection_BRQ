@@ -48,15 +48,15 @@ public class ApplicantServiceImp implements ApplicantService{
 	private Telephone phone;
 	
 	private List<Skill> 
-			skills = new ArrayList<Skill>();
+		skills = new ArrayList<Skill>();
 	private ApplicantSkillDTO 
-			applicantSkillDTO = new ApplicantSkillDTO();
+		applicantSkillDTO = new ApplicantSkillDTO();
 	private List<ApplicantSkillDTO> 
-			applicantSkillsDTO = new ArrayList<ApplicantSkillDTO>();
+		applicantSkillsDTO = new ArrayList<ApplicantSkillDTO>();
 	private ApplicantCertificationDTO 
-			applicantCertificationDTO = new ApplicantCertificationDTO();
+		applicantCertificationDTO = new ApplicantCertificationDTO();
 	private List<ApplicantCertificationDTO> 
-			applicantCertificationsDTO = new ArrayList<ApplicantCertificationDTO>();
+		applicantCertificationsDTO = new ArrayList<ApplicantCertificationDTO>();
 	
 	
 	@Override
@@ -71,9 +71,9 @@ public class ApplicantServiceImp implements ApplicantService{
 		
 		return applicantOpt
 			   .orElseThrow(() -> new NotFoundException 
-					   				  (  " The CPF " + cpf
+					      (  " The CPF " + cpf
 		                               + " is not registered in any application" )
-									  ) ;
+			                      ) ;
 	}
 
 	public Applicant getById(Long id) {
@@ -82,9 +82,9 @@ public class ApplicantServiceImp implements ApplicantService{
 		
 		return applicantOpt
 			   .orElseThrow(() -> new NotFoundException 
-					   				  (  " ID number: " + id
+					      (  " ID number: " + id
 		                               + " not found " )
-									  ) ;
+					      ) ;
 	}
 
 	@Override
@@ -99,9 +99,9 @@ public class ApplicantServiceImp implements ApplicantService{
 		
 		return applicantOpt
 			   .orElseThrow(() -> new NotFoundException 
-					   				  (  " The name  " + userName
-									   + " is not registered in any application" )
-									  ) ;
+					      (  " The name  " + userName
+					       + " is not registered in any application" )
+					      ) ;
 	}
 
 	@Override
@@ -116,9 +116,9 @@ public class ApplicantServiceImp implements ApplicantService{
 		
 		return applicantOpt
 			   .orElseThrow(() -> new NotFoundException 
-					   				  (  " The email " + email
-						               + " is not registered in any application" )
-									  ) ;
+					      (  " The email " + email
+					       + " is not registered in any application" )
+                                              ) ;
 	}
 	
 	@Override
@@ -145,11 +145,11 @@ public class ApplicantServiceImp implements ApplicantService{
 			  		applicantSkillDTO.setEmail(applicant.getEmail());
 			  		applicantSkillDTO.setSkills(skillAux.getSkills());
 			  		applicantSkillDTO.setCertifications((skillAux.getCertifications()!=null ? 
-			  						                     skillAux.getCertifications() : "" ));
+			  						     skillAux.getCertifications() : "" ));
 			  		applicantSkillDTO.setId(skillAux.getId());
 			  		
 			  		applicantSkillsDTO.add(applicantSkillDTO);
-		  	    });
+		  	    	});
 
 		  applicantSkillsDTO = 
 		     applicantSkillsDTO 
