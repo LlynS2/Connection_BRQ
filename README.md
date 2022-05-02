@@ -72,7 +72,7 @@
          <td align="center" >𝐸𝑚𝑎𝑖𝑙</td>
      </tr>
      <tr>
-         <td><video src="https://user-images.githubusercontent.com/86667062/166128716-1641f196-a4f0-43e4-bd13-fcfc3ca16b2b.mp4"></td>
+         <td><video src="https://user-images.githubusercontent.com/86667062/166343469-3aa221df-42a4-4369-b9d4-4dad194137ab.mp4"></td>
      </tr>
       <tr>
          <td align="center" >𝑆𝑘𝑖𝑙𝑙𝑠<br>ᴡʜᴇɴ ᴄᴀɴᴅɪᴅᴀᴛᴇs ᴀʀᴇ sᴇᴀʀᴄʜᴇᴅ, ᴛʜᴇ ʀᴀɴᴋɪɴɢ ᴡɪʟʟ ғɪʀsᴛ ʙʀɪɴɢ ᴜᴘ ᴛʜᴏsᴇ ᴡɪᴛʜ ᴄᴇʀᴛɪғɪᴄᴀᴛᴇs ᴀɴᴅ ᴛʜᴇɴ ᴛʜᴏsᴇ ᴡɪᴛʜᴏᴜᴛ.</td>
