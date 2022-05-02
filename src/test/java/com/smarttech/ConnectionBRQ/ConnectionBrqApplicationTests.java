@@ -1,4 +1,4 @@
-package br.com.smarttech.ConnectionBRQ;
+package com.smarttech.ConnectionBRQ;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
