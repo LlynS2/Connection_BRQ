@@ -78,7 +78,7 @@
          <td align="center" >𝑆𝑘𝑖𝑙𝑙𝑠<br>ᴡʜᴇɴ ᴄᴀɴᴅɪᴅᴀᴛᴇs ᴀʀᴇ sᴇᴀʀᴄʜᴇᴅ, ᴛʜᴇ ʀᴀɴᴋɪɴɢ ᴡɪʟʟ ғɪʀsᴛ ʙʀɪɴɢ ᴜᴘ ᴛʜᴏsᴇ ᴡɪᴛʜ ᴄᴇʀᴛɪғɪᴄᴀᴛᴇs ᴀɴᴅ ᴛʜᴇɴ ᴛʜᴏsᴇ ᴡɪᴛʜᴏᴜᴛ.</td>
      </tr>
      <tr>
-         <td><video src="https://user-images.githubusercontent.com/86667062/166129117-6e6bdeb9-f590-4a01-ab43-2c89dcf2eebb.mp4"></td>
+         <td><video src="https://user-images.githubusercontent.com/86667062/166344205-e6548295-6dfd-4944-9f14-3c8365f1caf4.mp4"></td>
      </tr>
      <tr>
          <td align="center" >𝐶𝑒𝑟𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠</td>
