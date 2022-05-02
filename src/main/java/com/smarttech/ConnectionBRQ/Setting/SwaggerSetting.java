@@ -33,7 +33,7 @@ public class SwaggerSetting {
                 .paths(PathSelectors.any())
                 .build()
                 .tags(new Tag("Applicant", 
-                	          "These endpoints are used to register and search for candidates", 1));
+                	      "These endpoints are used to register and search for candidates", 1));
     }
 
     private ApiInfo apiInfo() {
