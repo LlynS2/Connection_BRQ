@@ -35,10 +35,10 @@ public class ApplicantController {
 	@GetMapping("cpf/{cpf}")
 	@ApiOperation(value = "Query by CPF")
 	@ApiResponses(value = {
-		           @ApiResponse(code = 200, message = "Ok Process"),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 404, message = "Applicant Not Found"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
+		       @ApiResponse(code = 200, message = "Ok Process"),
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 404, message = "Applicant Not Found"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
       		     })
 	public ResponseEntity<ApplicantDTO> 
 	       findByCpf(@PathVariable("cpf") String cpf){	
@@ -50,10 +50,10 @@ public class ApplicantController {
 	@GetMapping("username/{userName}")
 	@ApiOperation(value = "Query by Name")
 	@ApiResponses(value = {
-		           @ApiResponse(code = 200, message = "Ok Process"),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 404, message = "Applicant Not Found"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
+		       @ApiResponse(code = 200, message = "Ok Process"),
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 404, message = "Applicant Not Found"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
       		     })
 	public ResponseEntity<ApplicantDTO> 
 	       findByUserName(@PathVariable("userName") String userName){	
@@ -66,9 +66,9 @@ public class ApplicantController {
 	@ApiOperation(value = "Query by Email")
 	@ApiResponses(value = {
     		       @ApiResponse(code = 200, message = "Ok Process"),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 404, message = "Applicant Not Found"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 404, message = "Applicant Not Found"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
       		     })
 	public ResponseEntity<ApplicantDTO> 
 	       findByEmail(@PathVariable("email") String email){	
@@ -87,9 +87,9 @@ public class ApplicantController {
 	@ApiOperation(value = "Query by skills ranked by certificate")
 	@ApiResponses(value = {
     		       @ApiResponse(code = 200, message = "Ok Process"),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 404, message = "Applicant Not Found"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 404, message = "Applicant Not Found"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
       		     })
 	public ResponseEntity<List<ApplicantSkillDTO>> 
 	       findBySkill(@PathVariable("skill") String skill){	
@@ -102,9 +102,9 @@ public class ApplicantController {
 	@ApiOperation(value = "Query by certificate")
 	@ApiResponses(value = {
     		       @ApiResponse(code = 200, message = "Ok Process"),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 404, message = "Applicant Not Found"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 404, message = "Applicant Not Found"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
       		     })
 	public ResponseEntity<List<ApplicantCertificationDTO>> 
 	       findByCertifications(@PathVariable("certification") String certification){	
@@ -117,9 +117,9 @@ public class ApplicantController {
 	@ApiOperation(value = "Applicant registration")
 	@ApiResponses(value = {
     		       @ApiResponse(code = 200, message = "Insert Ok", response = ApplicantDTO.class ),
-                   @ApiResponse(code = 400, message = "Bad request is received"),
-                   @ApiResponse(code = 500, message = "800000 - Server error")
-                  })
+                       @ApiResponse(code = 400, message = "Bad request is received"),
+                       @ApiResponse(code = 500, message = "800000 - Server error")
+                     })
 	public ResponseEntity<ApplicantDTO> 
 	       insertClient(@Valid @RequestBody ApplicantDTO applicantDTO){
 		
