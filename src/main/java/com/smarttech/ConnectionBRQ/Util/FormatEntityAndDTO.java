@@ -116,12 +116,12 @@ public class FormatEntityAndDTO {
 			   .forEach
 				 ( skillsAux -> { skills = new Skill();
 										
-		 			              skills.setId(skillsAux.getId());
-		       				      skills.setSkills(skillsAux.getSkills());
-		                          skills.setCertifications(skillsAux.getCertifications());
+		 			          skills.setId(skillsAux.getId());
+		       				  skills.setSkills(skillsAux.getSkills());
+		                                  skills.setCertifications(skillsAux.getCertifications());
 		                          
-		                          ListSkills.add(skills);
-			                     });
+		                                  ListSkills.add(skills);
+			                         });
 		return ListSkills;
 	}
 	
@@ -162,7 +162,7 @@ public class FormatEntityAndDTO {
             				          address.setCountry(addressAux.getComplement());	
 
             				          ListAddresses.add(address);
-					         		});
+					         });
 		return ListAddresses;
     	}
 	
@@ -222,11 +222,11 @@ public class FormatEntityAndDTO {
 				.forEach
 					( skillsAux -> { skillSDTO = new SkillsDTO();
 										   
-			  				 		 skillSDTO.setId(skillsAux.getId());
-				       			     skillSDTO.setSkills(skillsAux.getSkills());
-				                     skillSDTO.setCertifications(skillsAux.getCertifications());
+			  				  skillSDTO.setId(skillsAux.getId());
+				       			  skillSDTO.setSkills(skillsAux.getSkills());
+				                          skillSDTO.setCertifications(skillsAux.getCertifications());
 				                          
-				                     ListSkillsDTO.add(skillSDTO);
+				                          ListSkillsDTO.add(skillSDTO);
 					                });
 		return ListSkillsDTO;
 	}
