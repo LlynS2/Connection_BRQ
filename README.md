@@ -6,7 +6,9 @@
   
 </div>  
 
-![Picture1](https://user-images.githubusercontent.com/86667062/209566905-7546ff27-efdc-45fc-a0b7-a4914dfdd613.png)
+<div align="center">
+<img height="180px" src="https://github.com/LlynS2/Connection_BRQ/assets/86667062/f86ac95c-f097-480c-b6f1-39d02e55ad17">ㅤ 
+</div>
 
 <div>
   
